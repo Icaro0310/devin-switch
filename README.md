@@ -1,5 +1,30 @@
 <div align="center">
 
+# devin-switch — MOVED
+
+**This repository was absorbed into the
+[`devin-control`](https://github.com/Icaro0310/devin-control) monorepo.**
+
+The code now lives at `packages/switch/`. `pip install devin-switch` / `uv tool install devin-switch` still installs the same package, now released from devin-control.
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-control
+cd devin-control/packages/switch
+```
+
+The repository is archived; open issues and PRs belong to devin-control.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <a href="https://github.com/Icaro0310/devin-switch/actions/workflows/ci.yml"><img src="https://github.com/Icaro0310/devin-switch/actions/workflows/ci.yml/badge.svg" alt="ci"/></a>
 
 <a href="https://scorecard.dev/viewer/?uri=github.com/Icaro0310/devin-switch"><img src="https://api.scorecard.dev/projects/github.com/Icaro0310/devin-switch/badge" alt="OpenSSF Scorecard"/></a>
@@ -172,3 +197,5 @@ checked by digest.
 - [`devin-doctor`](https://github.com/Icaro0310/devin-explore) — diagnoses
   a Devin installation (read-only, always); `devin-switch doctor` covers
   the config-file corner of that space, inline, with no dependency.
+
+</details>
